@@ -263,7 +263,13 @@ h3 {
   flex-direction: column !important;
   align-items: center !important;
   gap: 4rem !important;
-  padding: 32rem 0 !important;
+  padding: 26rem 0 !important;
+}
+
+@media (min-width: 46em) {
+  .header-container {
+    padding: 32rem 0 !important;
+  }
 }
 
 /* ========================================================================
